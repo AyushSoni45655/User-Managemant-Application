@@ -5,7 +5,7 @@ A simple React.js CRUD Application using Axios and the free JSONPlaceholder API
 This project demonstrates GET, POST, and DELETE operations in a clean and structured way.
 
 
-|| 
+Visit our live demo [here](https://usermanagemantapplication.netlify.app/)
 
 || SNAPSHOTS ||
 
