@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import "tailwindcss";
+body{
+  background-color: #212121;
+  color: white;
+}
+:root{
+  
+  --navs-font: "Passion One", sans-serif;
+  --logo-font: "Saira Stencil One", sans-serif;
+  --nav-shadow:  rgba(198, 198, 198, 0.764) 0px 1px 0px;
+  --card-shadow: rgba(208, 208, 208, 0.16) 0px 3px 6px, rgba(245, 244, 244, 0.23) 0px 3px 6px;
+  --footer-shadow : rgba(255, 255, 255, 0.06)0px 2px 4px 0px inset;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border-radius: 50%;
+  background: conic-gradient(#25b09b 25%,#f03355 0 50%,#514b82 0 75%,#ffa516 0);
+  animation: l22 2s infinite linear;
+}
+.loader::before,
+.loader::after {
+   content: "";
+   grid-area: 1/1;
+   margin: 15%;
+   border-radius: 50%;
+   background: inherit;
+   animation: inherit;
+}
+.loader::after {
+   margin: 25%;
+   animation-duration: 3s;
+}
+@keyframes l22 {
+  100% {transform: rotate(1turn)}
+}
