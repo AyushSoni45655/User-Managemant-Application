@@ -3,6 +3,10 @@ React CRUD Application
 A simple React.js CRUD Application using Axios and the free JSONPlaceholder API
 .
 This project demonstrates GET, POST, and DELETE operations in a clean and structured way.
+
+
+|| 
+
 || SNAPSHOTS ||
 
                          ||  Home page  ||
@@ -13,6 +17,10 @@ This project demonstrates GET, POST, and DELETE operations in a clean and struct
                          ||  About page  ||
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyu9q8V5rWdkrArBbjPsGeH49V4MOYIkAJbJBC_jxKPVdZ7fgyJoO-vtfuZHq97tAKsEAsJoJFyKZ7yLTp2rYtC9z4igdGiEupLI6fLN4uppo6rnnlCYYXvYiL7XHjEzN58t5KhCBzqh3viBYD2-Fk0SmStRpgRXHXGB1z-yjsS82iG9kWT-L1B4AkdLoJ/s1847/Screenshot%202025-08-31%20181515.png"/> <br/><br/>
+
+            ||  Details page  ||
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhbDi_7SGnnM-tkucbL2Ug3JbAG1APvUPekaG01TF_H2wBuHz3PW7Ba3acNavS84cSq4ugC2-HhjDo4vmpehQ5IDKMmVjWjkMyIY7yTQGEgZFvPeMSQeDEYHlMVmW7U7LaQ8sUeMFYWJvUR9Eglu8D4xiKmFMYqW25d_qJ4gu4LGtSeYi0gOFU_52-BFtb/s1885/Screenshot%202025-08-31%20182729.png"/> <br/><br/>
 🚀 Features
 
 ✅ Fetch Users from API (GET)
